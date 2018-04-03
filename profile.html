@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/semantic-ui/2.2.10/semantic.min.css">
+    <script src="https://cdn.jsdelivr.net/semantic-ui/2.2.10/semantic.min.js"></script>
+    <link rel="icon" href="images/logo.png">
+    <title>R6Z PERFIL</title>
+
+    <script>
+window.onload = function () {
+
+var chart = new CanvasJS.Chart("chartContainer", {
+	animationEnabled: true,
+	theme: "light2",
+	title:{
+		text: "Rendimiento en los Últimos Meses"
+	},
+	axisY:{
+		includeZero: false
+	},
+	data: [{
+		type: "line",
+		dataPoints: [
+			{ y: 450 },
+			{ y: 414},
+			{ y: 520, indexLabel: "highest",markerColor: "red", markerType: "triangle" },
+			{ y: 460 },
+			{ y: 450 },
+			{ y: 500 },
+			{ y: 480 },
+			{ y: 480 },
+			{ y: 410 , indexLabel: "lowest",markerColor: "DarkSlateGrey", markerType: "cross" },
+			{ y: 500 },
+			{ y: 480 },
+			{ y: 510 }
+		]
+	}]
+});
+chart.render();
+
+}
+</script>
+
+
+
+</head>
+<body>
+
+
+    <div class="ui segment">
+        <a class="ui mini" class="Name Nabvar" ><img class="ui avatar mini image" src="IMAGES/logoother.png"></a>
+        <span><a class="ui olive button" class="Name Nabvar" href="Acount.html" >INICIO </a></span>
+
+
+    </div>
+
+
+
+    <img  class="ui grid centered" src="IMAGES/Imagen1.jpg"     >
+<br></br>
+
+<div class="ui compact vertical labeled icon menu">
+
+  <a class="item" href="Acount.html">
+    <i class="play circle outline olive icon"></i>
+    ¡Jugar!
+  </a>
+  <a class="active item" href="profile.html">
+    <i class="user circle olive icon"></i>
+    Acerca de ti
+  </a>
+  <a class="item" href="settings.html">
+    <i class="bug olive icon"></i>
+    Configuración
+  </a>
+
+</div>
+
+
+
+
+
+            <div class="ui people shape">
+              <div class="sides">
+                <div class="active side">
+                  <div class="ui card">
+                    <div class="image">
+                      <img src="IMAGES/porfilephoto.jpg">
+                    </div>
+                    <div class="content">
+                      <div class="header">Cristian Chacón Caldera</div>
+                      <div class="meta">
+                        <a>AA</a>
+                      </div>
+                      <div class="description">
+                        Cristian is a fictional character designed to resemble someone familiar to readers.
+                      </div>
+                    </div>
+                    <div class="extra content">
+                      <span class="right floated">
+                        Se unió en 2017
+                      </span>
+                      <span>
+                        <i class="table icon"></i>
+                        151 Partidas
+                      </span>
+                    </div>
+                  </div>
+                </div>
+                <div class="side">
+                  <div class="ui card">
+                    <div class="image">
+                      <img src="/images/avatar/large/stevie.jpg">
+                    </div>
+                    <div class="content">
+                      <a class="header">Stevie Feliciano</a>
+                      <div class="meta">
+                        <span class="date">Joined in 2014</span>
+                      </div>
+                      <div class="description">
+                        Stevie Feliciano is a library scientist living in New York City. She likes to spend her time reading, running, and writing.
+                      </div>
+                    </div>
+                    <div class="extra content">
+                      <a>
+                        <i class="table tennis icon"></i>
+                        22 Friends
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="ui people shape">
+                <p> </P>
+            </div>
+            <div class="ui people shape" id="chartContainer" style="height: 50%; width: 60%;"></div>
+<script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+
+
+
+
+    <div class="ui one column grid centered">
+
+
+
+
+
+
+
+        <div class="ui top attached tabular menu"> <!-- Aqui empieza el footer -->
+
+        </div>
+
+        <div class="ui bottom attached tab segment">
+          <p></p>
+
+          <p></p>
+        </div>
+
+  <footer class="pt-4 my-md-5 pt-md-5 border-top centered">
+        <footer class="container">
+          <p>&copy; 2017-2018 Reta6Zero, Inc. &middot; <a href="test.html">Sobre nosotros</a> &middot; Correo: Jchacon5819@gmail.com </p>
+          <p> Contacto: </p>
+          <a href=" https://www.facebook.com/reta6zero/" id="Facebook"
+          <button class="ui circular facebook icon button">
+            <i class="facebook icon"></i>
+          </button>
+          </a>
+          <a href="https://twitter.com/" id="Twitter"
+          <button class="ui circular twitter icon button">
+            <i class="twitter icon"></i>
+          </button>
+          </a>
+          </a>
+          <button class="positive ui button">+52 33 1045 6565</button>
+        </footer>
+
+
+
+
+        <br></br>
+
+    </footer>
+
+
+
+</div>
+</body>
+</html>
